@@ -7,7 +7,7 @@ try:
     from google import genai
 except ImportError:
     print("Missing package: google-genai")
-    print("Install it with: pip install google-genai")
+    print("Install it with: pip install google-genai or pip install -r requirements.txt")
     raise SystemExit(1)
 
 
